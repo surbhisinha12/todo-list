@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+</head>
+
+<body>
+     <div class = "bigContainer">
+           <form id="my_form">
+              <div class="container">
+                    <h2>To do List</h2>
+                      <div class="row">
+                         <input type="text" id="task" placeholder="New Task" required>
+                          <button id="addBtn" addtask()>Add</button>
+                     </div>
+            
+                      <div class="list_Element">
+                           <ul id="list">
+                           <!--<li class="checked">Task 1</li>
+                           <li>Task 2</li>
+                           <li>Task 3</li>
+                           </ul> -->
+                     </div>
+                     <button id ="reset_button">Clear all</button>
+              </div>
+        </form>
+    </div>
+    <script src="index.js"></script>                             
+</body>
+</html>
